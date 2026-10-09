@@ -2,120 +2,227 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio of a manufacturing excellence, robotics and industrial automation engineer.">
-  <title>Engineering Portfolio | Robotics & Manufacturing Excellence</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f3ee">
+  <meta name="description" content="Itmam Rubayet Annan — robotics, industrial automation, smart manufacturing, factory logistics, data integration and power-system modeling.">
+  <title>Itmam Rubayet Annan — Robotics & Automation Engineer</title>
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <nav class="nav container" aria-label="Main navigation">
-      <a class="brand" href="#home"><span class="brand-mark">RA</span><span>Engineering Portfolio</span></a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-      <div class="nav-links" id="navLinks">
-        <a href="#about">About</a><a href="#expertise">Expertise</a><a href="#projects">Projects</a>
-        <a href="#experience">Experience</a><a href="#contact" class="nav-cta">Contact</a>
-      </div>
-    </nav>
+    <div class="nav-wrap">
+      <a class="wordmark" href="#home" aria-label="Itmam Rubayet Annan home">
+        <span class="wordmark-icon">IA<span>.</span></span>
+        <span class="wordmark-label">ENGINEERING PORTFOLIO</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span>
+      </button>
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="#profile">Profile</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#work">Selected work</a>
+        <a href="#experience">Experience</a>
+        <a class="nav-contact" href="#contact">Let's connect <span>↗</span></a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section class="hero" id="home">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow"><span class="pulse"></span> MANUFACTURING EXCELLENCE · ROBOTICS · AUTOMATION</p>
-          <h1>Turning factory challenges into <span class="gradient-text">smart systems.</span></h1>
-          <p class="hero-lead">I’m a Senior Officer in Manufacturing Excellence with hands-on experience in autonomous mobile robots, industrial automation, data systems, and manufacturing process improvement.</p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#projects">Explore projects <span>↗</span></a>
-            <a class="button button-secondary" href="#contact">Connect with me</a>
+  <main id="main">
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> ROBOTICS · AUTOMATION · SMART MANUFACTURING</p>
+        <h1>Making factory operations <em>smarter,</em> one system at a time.</h1>
+        <p class="hero-intro">I’m <strong>Itmam Rubayet Annan</strong>, an engineering professional working across autonomous material movement, industrial automation, manufacturing data systems, and power-system modeling.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#work">Explore selected work <span>↘</span></a>
+          <a class="text-action" href="#contact">Get in touch <span>↗</span></a>
+        </div>
+        <div class="hero-footnote"><span class="availability-dot"></span> Based in Tongi, Gazipur, Bangladesh <span class="footnote-separator">/</span> Open to engineering opportunities</div>
+      </div>
+      <div class="hero-art" aria-label="Abstract technical illustration of an autonomous mobile robot route">
+        <div class="art-topline"><span>FIELD NOTES / 001</span><span>INDUSTRY 4.0</span></div>
+        <div class="art-grid"></div>
+        <svg class="route-art" viewBox="0 0 520 410" role="img" aria-label="Schematic route with connected factory stations">
+          <path class="route-muted" d="M58 318V226H154V100H276V176H390V74H465" />
+          <path class="route-active" d="M58 318V226H154V100H276" />
+          <path class="route-dashed" d="M276 176H390V74H465" />
+          <g class="route-node"><circle cx="58" cy="318" r="7"/><circle cx="154" cy="226" r="7"/><circle cx="154" cy="100" r="7"/><circle cx="276" cy="100" r="7"/><circle cx="390" cy="176" r="7"/><circle cx="390" cy="74" r="7"/><circle cx="465" cy="74" r="7"/></g>
+          <g class="station station-a"><rect x="36" y="270" width="44" height="30" rx="5"/><path d="M44 280h28M44 288h18"/></g>
+          <g class="station station-b"><rect x="128" y="143" width="52" height="38" rx="5"/><path d="M138 155h32M138 164h24"/></g>
+          <g class="station station-c"><rect x="252" y="207" width="48" height="34" rx="5"/><path d="M262 218h28M262 226h19"/></g>
+          <g class="robot-symbol" transform="translate(248 75)"><rect x="0" y="0" width="56" height="43" rx="8"/><rect x="12" y="10" width="32" height="15" rx="3"/><circle cx="12" cy="46" r="5"/><circle cx="44" cy="46" r="5"/><path d="M21 17h14"/></g>
+          <text x="27" y="349">MATERIAL IN</text><text x="111" y="130">WORKSTATION</text><text x="247" y="264">AGV / AMR</text><text x="371" y="48">TRANSFER</text>
+        </svg>
+        <div class="art-caption"><span class="caption-number">01—04</span><span>From physical flow to connected data</span></div>
+        <div class="art-sticker"><span class="sticker-symbol">↗</span><span>ENGINEERING<br>IN PRACTICE</span></div>
+      </div>
+    </section>
+
+    <section class="proof-strip" aria-label="Career highlights">
+      <div class="proof-item"><span class="proof-number">37</span><span class="proof-label">AGVs managed in<br>factory operations</span></div>
+      <div class="proof-item"><span class="proof-number">4</span><span class="proof-label">CTUs implemented<br>in finishing</span></div>
+      <div class="proof-item"><span class="proof-number">650<span class="proof-plus">+</span></span><span class="proof-label">Buses in modeled<br>distribution network</span></div>
+      <div class="proof-item"><span class="proof-number">3,000<span class="proof-plus">+</span></span><span class="proof-label">Loads in power-system<br>modeling project</span></div>
+    </section>
+
+    <section class="content-section section-shell" id="profile">
+      <div class="section-kicker"><span>01</span> / PROFILE</div>
+      <div class="profile-layout">
+        <div class="section-title-wrap">
+          <h2>Engineering where <em>machines, people,</em> and data meet.</h2>
+          <p class="section-summary">A hands-on background in deploying automation in real manufacturing environments—and connecting those systems to the information teams need to run them.</p>
+        </div>
+        <div class="profile-body">
+          <p>I work on factory automation from the practical first steps through implementation: understanding a process, defining technical requirements, coordinating suppliers and internal teams, commissioning equipment, and monitoring how it performs in daily operations.</p>
+          <p>My current focus is manufacturing excellence and smart manufacturing. My experience includes autonomous mobile robots, control and warehouse-system integration, operational dashboards, and project budgeting. Earlier, I modeled GIS-based 11 kV and 33 kV distribution networks for the Bangladesh Power Development Board.</p>
+          <div class="profile-values">
+            <div><span>01</span><b>Understand the workflow</b><small>Design around the actual production process.</small></div>
+            <div><span>02</span><b>Integrate the systems</b><small>Connect equipment, controls, databases, and teams.</small></div>
+            <div><span>03</span><b>Measure the outcome</b><small>Use operational evidence to guide improvements.</small></div>
           </div>
-          <div class="hero-tags"><span>Smart Manufacturing</span><span>AMR / AGV</span><span>Industrial Data</span></div>
         </div>
-        <div class="hero-visual" aria-label="Abstract industrial automation illustration">
-          <div class="visual-grid"></div>
-          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-          <div class="robot-card">
-            <div class="robot-top"><span class="status-dot"></span><span>FLEET STATUS</span><span class="mini-menu">•••</span></div>
-            <div class="robot-count">41<span>+</span></div>
-            <div class="robot-label">AMRs deployed / supported</div>
-            <div class="robot-divider"></div>
-            <div class="robot-metrics"><div><small>Focus</small><b>Automation</b></div><div><small>Approach</small><b>Data-driven</b></div></div>
-            <svg class="route-map" viewBox="0 0 330 100" role="img" aria-label="Illustrative autonomous robot route">
-              <path d="M12 78 H85 V25 H168 V62 H244 V18 H318" fill="none" stroke="#263d52" stroke-width="2" stroke-dasharray="4 7"/>
-              <path d="M12 78 H85 V25 H168" fill="none" stroke="#63e6be" stroke-width="3" stroke-linecap="round"/>
-              <circle cx="12" cy="78" r="5" fill="#63e6be"/><circle cx="85" cy="25" r="5" fill="#63e6be"/><circle cx="168" cy="25" r="5" fill="#63e6be"/><circle cx="244" cy="62" r="5" fill="#ffbd69"/>
-              <rect x="153" y="48" width="30" height="24" rx="6" fill="#132c3b" stroke="#63e6be" stroke-width="2"/>
-              <circle cx="160" cy="74" r="3" fill="#63e6be"/><circle cx="176" cy="74" r="3" fill="#63e6be"/>
-            </svg>
+      </div>
+    </section>
+
+    <section class="expertise-section" id="expertise">
+      <div class="section-shell">
+        <div class="section-kicker"><span>02</span> / TECHNICAL EXPERTISE</div>
+        <div class="section-heading-row">
+          <h2>Tools for the <em>real world.</em></h2>
+          <p>Cross-functional engineering across automation hardware, industrial software, data, and electrical systems.</p>
+        </div>
+        <div class="expertise-grid">
+          <article class="expertise-card">
+            <div class="card-index">A / 01</div><div class="expertise-icon icon-route">↗</div>
+            <h3>Robotics &amp; intralogistics</h3>
+            <p>Deployment and support of autonomous material movement, fleet configuration, route planning, traffic coordination, task allocation, and issue investigation.</p>
+            <div class="tag-row"><span>Hikrobot AGV</span><span>RCS</span><span>CTU</span><span>MES / WMS</span></div>
+          </article>
+          <article class="expertise-card">
+            <div class="card-index">A / 02</div><div class="expertise-icon icon-control">⌘</div>
+            <h3>Industrial automation</h3>
+            <p>Technical requirements, PLC and sensor integration, commissioning, equipment testing, infrastructure planning, and process improvement.</p>
+            <div class="tag-row"><span>Siemens TIA Portal</span><span>PLC</span><span>AutoCAD</span><span>KiCad</span></div>
+          </article>
+          <article class="expertise-card">
+            <div class="card-index">A / 03</div><div class="expertise-icon icon-data">⌁</div>
+            <h3>Software &amp; data integration</h3>
+            <p>Operational data handling, REST API integration, PostgreSQL queries, monitoring utilities, and dashboards for visibility into factory operations.</p>
+            <div class="tag-row"><span>Python</span><span>SQL</span><span>PostgreSQL</span><span>REST API</span><span>Power BI</span></div>
+          </article>
+          <article class="expertise-card">
+            <div class="card-index">A / 04</div><div class="expertise-icon icon-power">ϟ</div>
+            <h3>Electrical systems &amp; analytics</h3>
+            <p>Distribution-network modeling, load-flow and short-circuit studies, relay coordination, data analysis, and technical documentation.</p>
+            <div class="tag-row"><span>ETAP</span><span>Excel / VBA</span><span>Power-system analysis</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section section-shell" id="work">
+      <div class="section-kicker"><span>03</span> / SELECTED WORK</div>
+      <div class="section-heading-row work-heading">
+        <h2>Projects built around <em>operational problems.</em></h2>
+        <p>Selected deployment experience and engineering projects. Confidential factory details are intentionally not included.</p>
+      </div>
+
+      <article class="feature-project">
+        <div class="feature-visual">
+          <div class="visual-label"><span>FEATURED PROJECT</span><span>2025—PRESENT</span></div>
+          <div class="feature-diagram">
+            <div class="flow-node node-cut"><span class="node-symbol">01</span><b>Cutting</b><small>Material flow</small></div>
+            <div class="flow-connector"><span></span></div>
+            <div class="flow-node node-vap"><span class="node-symbol">02</span><b>VAP</b><small>AGV transport</small></div>
+            <div class="flow-connector"><span></span></div>
+            <div class="flow-node node-finish"><span class="node-symbol">03</span><b>Finishing</b><small>CTU integration</small></div>
           </div>
-          <div class="floating-chip chip-top"><span>↗</span> Process improvement</div>
-          <div class="floating-chip chip-bottom"><span class="chip-icon">⌘</span> Connected operations</div>
+          <div class="feature-visual-foot"><span>FLAP / FACTORY LOGISTICS AUTOMATION PROJECT</span><span>→ CONNECTED MATERIAL FLOW</span></div>
+        </div>
+        <div class="feature-copy">
+          <div class="project-overline">01 / SMART MANUFACTURING</div>
+          <h3>Factory Logistics Automation Project (FLAP)</h3>
+          <p>Contributing to the digitalization of garment-factory logistics through autonomous transport, fleet operations, and system integration. Work includes deployment in cutting and VAP, plus CTU implementation in finishing.</p>
+          <ul class="project-points">
+            <li>Managed operational configuration and support for 37 AGVs, including routes, task allocation, traffic management, and troubleshooting.</li>
+            <li>Led implementation activities for four finishing-section CTUs and WMS/RCS integration.</li>
+            <li>Coordinated requirements, commissioning, technical specifications, budgets, BOQs, and cross-team/vendor follow-up.</li>
+          </ul>
+          <div class="tag-row"><span>Hikrobot AGV</span><span>RCS</span><span>WMS / iWMS</span><span>WCS</span><span>PLC</span><span>PostgreSQL</span></div>
+          <div class="feature-links"><a class="project-link" href="projects/amr-material-movement.md">Read project brief <span>↗</span></a><a class="project-link" href="https://github.com/irannan033/FLAP" target="_blank" rel="noreferrer">FLAP on GitHub <span>↗</span></a></div>
+        </div>
+      </article>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-card-art art-dashboard"><div class="dashboard-top"><span>FLEET ANALYTICS</span><span>LIVE VIEW / CONCEPT</span></div><div class="dashboard-number"><strong>AGV</strong><span>Utilization overview</span></div><div class="mini-bars"><i style="--bar:44%"></i><i style="--bar:70%"></i><i style="--bar:55%"></i><i style="--bar:88%"></i><i style="--bar:63%"></i><i style="--bar:95%"></i></div><div class="dashboard-foot"><span>RUNTIME</span><span>ONLINE TIME</span><span>UTILIZATION</span></div></div>
+          <div class="project-card-body"><div class="project-overline">02 / DATA &amp; VISUALIZATION</div><h3>AMR Fleet Performance Dashboard</h3><p>Developing a Power BI view of fleet runtime, online time, and utilization from PostgreSQL operational data, with reusable reporting patterns for multiple factory environments.</p><div class="tag-row"><span>Power BI</span><span>SQL</span><span>PostgreSQL</span></div><a class="project-link" href="projects/amr-performance-dashboard.md">View project brief <span>↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-card-art art-vision"><div class="vision-frame"><span class="vision-box box-one">PANEL / 01</span><span class="vision-box box-two">PANEL / 02</span><span class="vision-status">VISION ANALYTICS</span></div><div class="vision-code">CV · DETECTION · COUNTING</div></div>
+          <div class="project-card-body"><div class="project-overline">03 / COMPUTER VISION</div><h3>Video-Based Worker Capacity Analytics</h3><p>A development project exploring video-based panel counting, work activity, idle intervals, and out-of-camera events for historical and real-time capacity visibility.</p><div class="tag-row"><span>Python</span><span>OpenCV</span><span>YOLO</span></div><a class="project-link" href="projects/worker-capacity-analytics.md">View project brief <span>↗</span></a>
+        </article>
+        <article class="project-card">
+          <div class="project-card-art art-rfid"><div class="rfid-orbit orbit-one"></div><div class="rfid-orbit orbit-two"></div><div class="rfid-chip">RFID<span>↗</span></div><div class="rfid-signal signal-one"></div><div class="rfid-signal signal-two"></div><div class="rfid-caption">IDENTIFY / TRACK / LOG</div></div>
+          <div class="project-card-body"><div class="project-overline">04 / TRACEABILITY</div><h3>RFID Gate &amp; Conveyor Concept</h3><p>A tracking portal concept combining conveyor movement with RFID reading and database connectivity to identify goods in batches and reduce manual scanning.</p><div class="tag-row"><span>RFID</span><span>Database</span><span>Automation</span></div><a class="project-link" href="projects/rfid-material-tracking.md">View project brief <span>↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-card-art art-automation"><div class="automation-arm"><span class="arm-joint joint-one"></span><span class="arm-segment segment-one"></span><span class="arm-joint joint-two"></span><span class="arm-segment segment-two"></span><span class="arm-joint joint-three"></span><span class="arm-tool"></span></div><div class="automation-label">PICK · PLACE · REPEAT</div></div>
+          <div class="project-card-body"><div class="project-overline">05 / INDUSTRIAL ROBOTICS</div><h3>Factory Automation Concepts</h3><p>Hands-on work across pick-and-light, a six-axis robotic arm, flood-detection IoT, and other concepts that connect physical equipment to operator workflows.</p><div class="tag-row"><span>Robotics</span><span>ESP32</span><span>PLC / IoT</span></div><a class="project-link" href="projects/factory-automation-concepts.md">View project brief <span>↗</span></a></div>
+        </article>
+        <article class="project-card project-card-wide">
+          <div class="project-card-art art-power"><div class="power-title">11 kV <span>/</span> 33 kV</div><div class="power-subtitle">DISTRIBUTION NETWORK MODEL</div><svg viewBox="0 0 360 110" aria-hidden="true"><path d="M20 80 L82 35 L142 72 L202 25 L266 65 L338 18 M82 35 L95 94 M202 25 L212 87 M266 65 L278 18" fill="none" stroke="currentColor" stroke-width="1.5"/><g fill="#f4f3ee" stroke="currentColor" stroke-width="2"><circle cx="20" cy="80" r="5"/><circle cx="82" cy="35" r="5"/><circle cx="142" cy="72" r="5"/><circle cx="202" cy="25" r="5"/><circle cx="266" cy="65" r="5"/><circle cx="338" cy="18" r="5"/><circle cx="95" cy="94" r="5"/><circle cx="212" cy="87" r="5"/><circle cx="278" cy="18" r="5"/></g></svg></div>
+          <div class="project-card-body"><div class="project-overline">06 / POWER SYSTEMS</div><h3>GIS-Based Distribution Network Modeling</h3><p>Modeled a GIS-based network for BPDB using ETAP, covering 11 kV and 33 kV systems, 15 feeders, 650+ buses, and 3,000+ loads; performed load-flow, short-circuit, and arc-flash studies.</p><div class="tag-row"><span>ETAP</span><span>GIS data</span><span>Power system</span></div><a class="project-link" href="projects/power-system-modeling.md">View project brief <span>↗</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience-section" id="experience">
+      <div class="section-shell">
+        <div class="section-kicker"><span>04</span> / EXPERIENCE &amp; EDUCATION</div>
+        <div class="experience-layout">
+          <div class="experience-intro"><h2>From factory floors to <em>network models.</em></h2><p>Combining practical delivery with analytical engineering.</p><a href="#contact" class="text-action">Discuss an opportunity <span>↗</span></a></div>
+          <div class="timeline">
+            <article class="timeline-entry"><div class="timeline-date">OCT 2023 — PRESENT</div><div class="timeline-marker"></div><div class="timeline-content"><span class="timeline-type">PROFESSIONAL EXPERIENCE</span><h3>Senior Officer — Manufacturing Excellence</h3><p class="timeline-org">Amigo Bangladesh Ltd. · Crystal International Group</p><p>Robotics and automation delivery in garment manufacturing, including FLAP, AGV fleet operations, CTU deployment, RCS/WMS integration, project budgeting, vendor coordination, and operational improvement.</p><ul><li>37 AGVs managed across factory material-flow operations.</li><li>Four finishing-section CTUs implemented with WMS/RCS integration activities.</li><li>Project planning, BOQs, technical specifications, commissioning, troubleshooting, and cross-functional coordination.</li></ul></div></article>
+            <article class="timeline-entry"><div class="timeline-date">APR 2024 — JUL 2024</div><div class="timeline-marker"></div><div class="timeline-content"><span class="timeline-type">CONSULTING · REMOTE</span><h3>Power System Modeling Consultant</h3><p class="timeline-org">Bangladesh Power Development Board (BPDB)</p><p>Built and analyzed an ETAP-based GIS distribution model covering 11 kV and 33 kV networks, 15 feeders, 650+ buses, and 3,000+ loads. Performed load-flow, short-circuit, arc-flash, and relay-coordination studies.</p></div></article>
+            <article class="timeline-entry"><div class="timeline-date">2018 — 2023</div><div class="timeline-marker"></div><div class="timeline-content"><span class="timeline-type">EDUCATION</span><h3>B.Sc. in Electrical &amp; Electronic Engineering</h3><p class="timeline-org">Chittagong University of Engineering &amp; Technology (CUET)</p><p>Undergraduate research included a dual-band MIMO antenna for 5G smartphone applications and a simulated microstrip patch antenna for early-stage breast-cancer detection using a phantom model.</p></div></article>
+          </div>
         </div>
       </div>
-      <div class="hero-bottom container"><span>ENGINEERING · OPERATIONS · CONTINUOUS IMPROVEMENT</span><a href="#about">SCROLL TO EXPLORE ↓</a></div>
     </section>
 
-    <section class="stats-section">
-      <div class="container stats-grid">
-        <div class="stat"><strong>41<span>+</span></strong><p>AMRs in manufacturing operations</p></div>
-        <div class="stat"><strong>27<span>%</span></strong><p>Throughput improvement reported in project context</p></div>
-        <div class="stat"><strong>35<span>%</span></strong><p>Potential downtime reduction reported</p></div>
-        <div class="stat"><strong>20<span>%</span></strong><p>Manpower reduction in selected automation tasks</p></div>
-      </div>
-      <p class="stats-note container">Figures are project-context metrics and should be validated against approved internal reports before external publication.</p>
+    <section class="education-strip section-shell">
+      <div class="education-label">ADDITIONAL EDUCATION</div>
+      <div><b>HSC — Science</b><span>Dhaka Residential Model College · GPA 5.00 / 5.00 · 2015–2017</span></div>
+      <div><b>SSC — Science</b><span>Ashuganj Sarkarkhana School &amp; College · GPA 5.00 / 5.00 · 2013–2015</span></div>
+      <div><b>Technical training</b><span>Industrial automation &amp; PLC programming · AutoCAD electrical design · TICI industrial attachment</span></div>
     </section>
 
-    <section class="section container" id="about">
-      <div class="section-heading"><p class="eyebrow">01 / ABOUT</p><h2>Engineering at the intersection of <span class="gradient-text">machines and data.</span></h2></div>
-      <div class="about-grid">
-        <div class="about-text"><p class="large-copy">My work focuses on making manufacturing operations more connected, measurable, and efficient—from autonomous material movement to production analytics and digital workflows.</p>
-          <p>With an Electrical and Electronic Engineering background, I work across requirements analysis, automation deployment, system integration, troubleshooting, budgeting, and coordination with technical teams and suppliers.</p>
-          <p>I’m interested in practical Industry 4.0 solutions that improve safety, traceability, productivity, and decision-making across different manufacturing environments.</p>
-        </div>
-        <div class="about-panel"><div class="panel-icon">✳</div><h3>My engineering principles</h3>
-          <ul class="principle-list"><li><span>01</span><div><b>Start with the process</b><small>Understand the real workflow before automating it.</small></div></li>
-          <li><span>02</span><div><b>Connect the systems</b><small>Make machines, databases, and people work together.</small></div></li>
-          <li><span>03</span><div><b>Measure the outcome</b><small>Use reliable data to evaluate operational impact.</small></div></li></ul>
+    <section class="contact-section" id="contact">
+      <div class="section-shell contact-layout">
+        <div><div class="section-kicker"><span>05</span> / CONTACT</div><h2>Have a practical problem to solve? <em>Let's talk.</em></h2><p class="contact-lead">Interested in smart manufacturing, automation engineering, industrial data, and projects that connect the shop floor with better decisions.</p></div>
+        <div class="contact-card">
+          <div class="contact-card-top"><span>CONTACT DETAILS</span><span>↗</span></div>
+          <a class="contact-row" href="mailto:itmamrubayetannan033@gmail.com"><span>EMAIL</span><b>itmamrubayetannan033@gmail.com</b><span class="row-arrow">↗</span></a>
+          <a class="contact-row" href="tel:+8801681874851"><span>PHONE</span><b>+880 1681-874851</b><span class="row-arrow">↗</span></a>
+          <div class="contact-row"><span>LOCATION</span><b>Tongi, Gazipur, Bangladesh</b><span class="row-arrow">⌖</span></div>
+          <div class="contact-socials"><a href="https://github.com/irannan033" target="_blank" rel="noreferrer">GitHub <span>↗</span></a><a href="https://www.linkedin.com/in/itmam-rubayet-annan-7a5190196/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a></div>
+          <p class="contact-note">Replace the LinkedIn link with your exact profile URL before sharing this portfolio widely.</p>
         </div>
       </div>
     </section>
-
-    <section class="section section-muted" id="expertise">
-      <div class="container"><div class="section-heading"><p class="eyebrow">02 / TECHNICAL TOOLKIT</p><h2>Capabilities built for <span class="gradient-text">real operations.</span></h2><p class="section-subtitle">A blend of industrial systems, software, data analysis, and project delivery.</p></div>
-        <div class="skills-grid">
-          <article class="skill-card"><div class="skill-icon">↗</div><h3>Robotics & Material Flow</h3><p>AMR/AGV deployment, fleet monitoring, route and workstation coordination, charging planning, issue analysis.</p><div class="skill-tags"><span>AMR / AGV</span><span>RCS</span><span>Material flow</span></div></article>
-          <article class="skill-card"><div class="skill-icon">⌘</div><h3>Industrial Automation</h3><p>Automation requirements, PLC-based systems, equipment commissioning, controls integration, process improvement.</p><div class="skill-tags"><span>PLC</span><span>Siemens TIA Portal</span><span>AutoCAD</span></div></article>
-          <article class="skill-card"><div class="skill-icon">▦</div><h3>Data & Integration</h3><p>Operational databases, API integration, data preparation, monitoring utilities, reporting and dashboards.</p><div class="skill-tags"><span>Python</span><span>SQL</span><span>REST API</span><span>PostgreSQL</span></div></article>
-          <article class="skill-card"><div class="skill-icon">◫</div><h3>Analytics & Engineering</h3><p>Capacity analysis, performance metrics, visualization, power-system modeling, technical documentation.</p><div class="skill-tags"><span>Power BI</span><span>ETAP</span><span>OpenCV</span><span>YOLO</span></div></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section container" id="projects">
-      <div class="section-heading"><p class="eyebrow">03 / SELECTED PROJECTS</p><h2>From factory-floor problems to <span class="gradient-text">working prototypes.</span></h2><p class="section-subtitle">Project summaries are written for a public portfolio. Internal names, credentials, network details, and confidential factory information are intentionally excluded.</p></div>
-      <div class="projects-grid">
-        <article class="project-card project-featured"><div class="project-visual visual-amr"><span class="visual-label">01 / SMART LOGISTICS</span><div class="floor-lines"></div><div class="mini-robot"><i></i><i></i></div><div class="route-line"></div></div><div class="project-content"><div class="project-meta"><span>Industrial Automation</span><span>Deployment</span></div><h3>Autonomous Material Movement</h3><p>Supporting AMR/AGV operations across garment manufacturing workflows, including cutting and value-added process logistics, with attention to fleet uptime, workstation flow, safety, and operational support.</p><div class="project-tags"><span>AMR / AGV</span><span>RCS</span><span>Operations</span></div><a href="projects/amr-material-movement.md" class="text-link">Read project brief ↗</a></div></article>
-        <article class="project-card"><div class="project-visual visual-data"><span class="visual-label">02 / OPERATIONS DATA</span><div class="chart-bars"><i style="height:35%"></i><i style="height:56%"></i><i style="height:45%"></i><i style="height:75%"></i><i style="height:62%"></i><i style="height:92%"></i></div><div class="chart-line"></div></div><div class="project-content"><div class="project-meta"><span>Data Analytics</span><span>Dashboard</span></div><h3>AMR Fleet Performance Dashboard</h3><p>A reporting concept to monitor robot availability, runtime, online time, and utilization trends using SQL data and Power BI visualization.</p><div class="project-tags"><span>PostgreSQL</span><span>SQL</span><span>Power BI</span></div><a href="projects/amr-performance-dashboard.md" class="text-link">Read project brief ↗</a></div></article>
-        <article class="project-card"><div class="project-visual visual-vision"><span class="visual-label">03 / COMPUTER VISION</span><div class="camera-frame"><div class="det-box"></div><div class="det-box det-two"></div><span>OBJECT DETECTION</span></div></div><div class="project-content"><div class="project-meta"><span>Applied AI</span><span>Prototype</span></div><h3>Video-Based Worker Capacity Analytics</h3><p>A prototype exploring computer vision to identify panels and analyze work-cycle activity from video, with a path toward historical and near-real-time dashboards.</p><div class="project-tags"><span>Python</span><span>OpenCV</span><span>YOLO</span></div><a href="projects/worker-capacity-analytics.md" class="text-link">Read project brief ↗</a></div></article>
-        <article class="project-card"><div class="project-visual visual-rfid"><span class="visual-label">04 / TRACEABILITY</span><div class="rfid-rings"><i></i><i></i><i></i><b>RFID</b></div><div class="rfid-node node-a"></div><div class="rfid-node node-b"></div></div><div class="project-content"><div class="project-meta"><span>IoT & Tracking</span><span>Prototype</span></div><h3>RFID-Based Material Tracking</h3><p>A concept for capturing tag reads, recording material movement, and making current location and movement history available through a connected application and database.</p><div class="project-tags"><span>RFID</span><span>ESP32</span><span>Database</span></div><a href="projects/rfid-material-tracking.md" class="text-link">Read project brief ↗</a></div></article>
-        <article class="project-card"><div class="project-visual visual-plc"><span class="visual-label">05 / CONTROL SYSTEMS</span><div class="plc-module"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="plc-wires"></div></div><div class="project-content"><div class="project-meta"><span>Industrial Controls</span><span>Engineering</span></div><h3>Factory Automation Concepts</h3><p>Selected concepts include pick-and-light assistance, automated disposal, robotic-arm applications, conveyor and RFID-gate integration, and floor-marking robotics.</p><div class="project-tags"><span>PLC</span><span>Robotics</span><span>System design</span></div><a href="projects/factory-automation-concepts.md" class="text-link">Read project brief ↗</a></div></article>
-        <article class="project-card"><div class="project-visual visual-power"><span class="visual-label">06 / POWER ENGINEERING</span><div class="power-network"><i></i><i></i><i></i><i></i><b></b></div></div><div class="project-content"><div class="project-meta"><span>Electrical Engineering</span><span>Modeling</span></div><h3>Power System Modeling</h3><p>Electrical engineering experience includes power-system modeling for large distribution networks, with an emphasis on analysis and system understanding.</p><div class="project-tags"><span>ETAP</span><span>Power systems</span><span>EEE</span></div><a href="projects/power-system-modeling.md" class="text-link">Read project brief ↗</a></div></article>
-      </div>
-    </section>
-
-    <section class="section section-muted" id="experience"><div class="container"><div class="section-heading"><p class="eyebrow">04 / EXPERIENCE</p><h2>Delivering improvements through <span class="gradient-text">cross-functional engineering.</span></h2></div>
-      <div class="timeline"><div class="timeline-item"><div class="timeline-date">CURRENT ROLE</div><div class="timeline-marker"></div><div class="timeline-body"><h3>Senior Officer — Manufacturing Excellence</h3><p class="timeline-company">Amigo Bangladesh Ltd. · Crystal International Group</p><ul><li>Support manufacturing excellence initiatives, automation projects, budget preparation, and technical coordination.</li><li>Contribute to deployment and operational support of autonomous material-handling systems.</li><li>Coordinate requirements, supplier communication, troubleshooting, and improvement opportunities across factory teams.</li><li>Develop data-driven monitoring and analytics concepts for manufacturing operations.</li></ul></div></div>
-      <div class="timeline-item"><div class="timeline-date">PREVIOUS ROLE</div><div class="timeline-marker"></div><div class="timeline-body"><h3>Robotics / Automation Engineering</h3><p class="timeline-company">Manufacturing and industrial engineering environment</p><ul><li>Worked on robotics and automation solutions for material movement and production support.</li><li>Contributed to equipment integration, technical evaluation, testing, and commissioning activities.</li><li>Supported process digitalization and operational issue resolution.</li></ul></div></div>
-      <div class="timeline-item"><div class="timeline-date">EDUCATION</div><div class="timeline-marker"></div><div class="timeline-body"><h3>B.Sc. in Electrical and Electronic Engineering</h3><p class="timeline-company">Chittagong University of Engineering & Technology (CUET)</p><p>Foundation in electrical systems, electronics, control, and engineering analysis.</p></div></div></div>
-    </div></section>
-
-    <section class="section container" id="approach"><div class="approach-card"><div><p class="eyebrow">HOW I WORK</p><h2>Make it practical.<br><span class="gradient-text">Make it measurable.</span></h2></div><div class="approach-steps"><div><span>01</span><p><b>Discover</b><small>Map the workflow and define the actual problem.</small></p></div><div><span>02</span><p><b>Design</b><small>Translate requirements into a safe, maintainable solution.</small></p></div><div><span>03</span><p><b>Validate</b><small>Test performance and document lessons learned.</small></p></div></div></div></section>
-
-    <section class="section contact-section" id="contact"><div class="container contact-grid"><div><p class="eyebrow">05 / CONTACT</p><h2>Let’s build better <span class="gradient-text">manufacturing systems.</span></h2><p class="section-subtitle">Open to connecting with engineers, manufacturing leaders, automation teams, and collaborators working on smart industry solutions.</p></div><div class="contact-panel"><p>Use the links below to connect or view my work.</p><a class="contact-link" href="https://github.com/irannan033" target="_blank" rel="noreferrer"><span>GitHub</span><b>github.com/irannan033 ↗</b></a><a class="contact-link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><span>LinkedIn</span><b>Add your profile URL ↗</b></a><button class="button button-primary copy-email" id="copyEmail" data-email="YOUR_EMAIL@example.com">Copy email placeholder</button><p class="contact-hint">Before publishing, replace the email and LinkedIn placeholders in <code>index.html</code>.</p></div></div></section>
   </main>
-  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">RA</span><span>Engineering Portfolio</span></a><p>Built to document engineering work, projects, and continuous learning.</p><a href="#home">Back to top ↑</a></div><div class="container footer-bottom">© <span id="year"></span> · Portfolio template · Keep confidential factory information private.</div></footer>
+
+  <footer class="site-footer">
+    <div class="section-shell footer-main"><a class="wordmark footer-wordmark" href="#home"><span class="wordmark-icon">IA<span>.</span></span><span class="wordmark-label">ITMAM RUBAYET ANNAN</span></a><p>Robotics · Automation · Manufacturing Excellence</p><a class="back-top" href="#home">BACK TO TOP ↑</a></div>
+    <div class="section-shell footer-bottom"><span>© <span id="year"></span> Itmam Rubayet Annan</span><span>Built for practical engineering, not just presentation.</span></div>
+  </footer>
   <script src="assets/js/main.js"></script>
 </body>
 </html>
